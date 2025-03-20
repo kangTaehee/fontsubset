@@ -1,0 +1,48 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+// 폰트 서브셋 글리프 대상
+// https://raw.githubusercontent.com/nacyot/korean_subset_glyphs/master/ksx1001_korean_2350.txt
+// Noto Sans KR otf 버전 : 2.002;hotconv 1.0.116;makeotfexe 2.5.65601
+// $url : '/static/font/notosans-2350/';
+$url : '/notosans-2350/';
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Thin-2350.woff2') format('woff2'), url($url+'NotoSansKR-Thin-2350.woff') format('woff');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Light-2350.woff2') format('woff2'), url($url+'NotoSansKR-Light-2350.woff') format('woff');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Regular-2350.woff2') format('woff2'), url($url+'NotoSansKR-Regular-2350.woff') format('woff');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Medium-2350.woff2') format('woff2'), url($url+'NotoSansKR-Medium-2350.woff') format('woff');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Bold-2350.woff2') format('woff2'), url($url+'NotoSansKR-Bold-2350.woff') format('woff');
+}
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: local('Noto Sans KR'), url($url+'NotoSansKR-Black-2350.woff2') format('woff2'), url($url+'NotoSansKR-Black-2350.woff') format('woff');
+}
